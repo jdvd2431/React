@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Prueba from './Prueba';
+import Contenedor from './Contenedor';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,7 +14,7 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <Prueba generoPromp="M" nombrePromp="Julian" edadPromp="19"/>,
+  <Contenedor />,
   document.getElementById('root')
 );
 // If you want to start measuring performance in your app, pass a function
